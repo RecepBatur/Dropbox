@@ -1,0 +1,181 @@
+* a{
+   text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.left{
+    width: 70%;
+    height: auto;
+    float: left;
+    background-color: #6a0026;
+    padding-bottom: 6%;
+}
+.left img{
+    width: 10%;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+.header span{
+    margin-left: 10px;
+    color: #d2d7ed;
+    cursor: pointer;
+}
+.centertext{ 
+   margin-top: 50px;
+   margin-left: 65px;
+}
+.centertext h1{
+    color: #d2d7ed;
+    font-size: 70px;
+    font-weight: 800px;
+}
+#text{
+    color: #d2d7ed;
+}
+#photo{
+    width: 8%;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.textbottom{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.textbottom span{
+    display: block;
+    color: #d2d7ed;
+}
+#textbottom1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.textbottom2{
+    margin-top: 50px;
+}
+.right{
+    width: 30%;
+    height: auto;
+    float: right;
+}
+.rightheader{
+    width: 30%;
+    height: 40px;
+    float: right;
+}
+.rightheader span a{
+    color: black;
+    padding-left: 10px;
+}
+.frm{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.frm1{
+    width: 100%;
+    text-align: center;
+}
+.frm span a{
+    display: block;
+    margin: 7px 70px 0px 0px;
+}
+.bld{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 45px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 50%;
+    height: 34px;
+    margin-top: 15px;
+    border: 1px solid rgb(216, 204, 204);
+    outline: none;
+}
+input[type="text"],
+input[type="password"]::placeholder{
+    padding-left: 10px;
+}
+.check{
+    margin: 10px 70px 0px 0px;
+}
+input[type="checkbox"]{
+    width: 4%;
+}
+.btn1{
+    width: 50%;
+    height: 34px;
+    margin-top: 10px;
+    background-color: #0061FE;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #168add;
+}
+.btn1 span{
+    color: #fff;
+}
+.btn2{
+    width: 50%;
+    height: 34px;
+    margin-top: 10px;
+    border: 1px solid rgb(216, 204, 204);
+    cursor: pointer;
+    background-color: #fff;
+}
+.btn2 span{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#top{
+    margin-right: 5px;
+}
+.rightbottom{
+    background-color: #bed9eb;
+    width: 30%;
+    height: 639px;
+    position: absolute;
+    top: 414px;
+    margin-top: 35px;
+}
+#resim{
+    width: 35%;
+    position: absolute;
+    top: 58%;
+    right: 11.2%;
+}
+#resim2{
+    width: 80%;
+}
+#resim::before{
+    content: "@2022 Recep Batur";
+    color: #d2d7ed;
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: -18;
+}
+#resim::after{
+    content: "@2022 Recep Batur";
+    color: black;
+    writing-mode: vertical-lr;
+    position: absolute;
+    bottom: 1%;
+}
+@media only screen and (max-width:701px){
+    .desktop{
+        display: none;
+    }
+}

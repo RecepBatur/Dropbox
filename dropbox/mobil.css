@@ -1,0 +1,16 @@
+@media only screen and (max-width:700px){
+    .mobil{
+        display: none;
+    }
+    .frm{
+        display: none;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+        float: left;
+        background-color: #6a0026;
+        padding-bottom: 6%;
+    }
+
+}
